@@ -1,15 +1,12 @@
-# Candidate Locator
-## Locate all contributions to a Github repository
+# Github API Exploration
+## Locate all contributions to a Github repository written in multiple languages to compare the implementations
 
-## Usage
+## Examples
 
-- `export GHTOKEN=<your github token>` 
-- `./githubApiInteraction.py`
+### Python 
 
-### Redirect output to a file
+- [example](python/README.md)
 
-- `githubApiInteraction.py &> authors.txt`
+### Go Lang
 
-### Redirect output to a file and view results
-
-- `githubApiInteraction.py 2>&1 | tee [-a] authors.txt`
+- [example](go/README.md)  
