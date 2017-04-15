@@ -3,8 +3,8 @@
 
 ### Getting Started
   
-  - `cd go #navigate the the top of the go directory`
-  - `ls -R #check sub folders`
+  - `cd go # navigate the the top of the go directory`
+  - `ls -R # check sub folders`
 
   ```
   README.md   src
@@ -16,6 +16,6 @@
   main.go
   ```
   
-  - `export GOPATH="$(pwd)"``
-  -  `go install programName # Build the program`
-  - `./bin/programName # Run the program`
+  - `export GOPATH="$(pwd)"`
+  -  `go install githubApiInteraction # Build the program`
+  - `./bin/githubApiInteraction # Run the program`
